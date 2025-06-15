@@ -9,8 +9,8 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Your Name / Site Title"
-title_separator          : "-"
+title                    : "Shengduo Chen"
+title_separator          : "DR"
 name                     : &name "Your Name"
 description              : &description "personal description"
 url                      : https://chenshengduo.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
@@ -25,9 +25,9 @@ author:
   avatar           : "myphoto.png"
   name             : "Shengduo Chen"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : #"University of Technology Sydney / Southern University of Science and Technology"
   location         : "China"
-  employer         : "University of Technology, Sydney/Southern University of Science and Technology"
+  employer         : #"University of Technology Sydney"
   uri              : # URL
   email            : "shengduo.chen@student.uts.edu.au" 
 
@@ -36,9 +36,9 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=TDQg-4cAAAAJ&hl=en"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : #"http://orcid.org/yourorcidurl"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
 
@@ -46,7 +46,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : #"academicpages"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -268,22 +268,22 @@ defaults:
       share: true
       comments: true
   # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
+  # - scope:
+  #     path: ""
+  #     type: portfolio
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     comment: true
   # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+  # - scope:
+  #     path: ""
+  #     type: talks
+  #   values:
+  #     layout: talk
+  #     author_profile: true
+  #     share: true
 
 
 # Sass/SCSS
